@@ -5,6 +5,6 @@
 ## 🔗 Acesso Rápido ao Projetos
 | Repositório | Descrição | Status |
 | :--- | :--- | :--- |
-| [Template](https://github.com/fabricaIA/SIMO-Desafio)/ | Template de Projeto | ✅ Ativo |
-| [SIMO](https://github.com/fabricaIA/Template) | Sistema de Monitoramento das Obras e Ações do Governo do Estado do Piauí | 🛠️ Em Progresso |
+| [Template](https://github.com/fabricaIA/Template) | Template de Projeto | ✅ Ativo |
+| [SIMO](https://github.com/fabricaIA/SIMO-Desafio) | Sistema de Monitoramento das Obras e Ações do Governo do Estado do Piauí | 🛠️ Em Progresso |
 | [Wiki Geral](https://github.com/fabricaIA/.github/wiki) | Documentação | 📖 Referência |
