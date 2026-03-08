@@ -4,7 +4,7 @@ labels:
     color: "C31D5F"
     description: "Routine tasks, build process or auxiliary tool changes"
   - name: "refactor"
-    color: "e99695"
+    color: "e99694"
     description: "Code restructuring without changing functionality"
   - name: "fix"
     color: "d73a4a"
