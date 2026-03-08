@@ -3,7 +3,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'manage-your-labels.yml'
+      - '.github/manage-your-labels.yml'
   workflow_dispatch:
 
 jobs:
@@ -12,5 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: jmccann/manage-your-labels@v1
+        with:
+          config: '.github/manage-your-labels.yml'
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
