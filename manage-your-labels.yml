@@ -1,0 +1,23 @@
+# Exemplo de configuração no arquivo manage-your-labels.yml
+labels:
+  - name: "chore"
+    color: "C31D5F"
+    description: "Routine tasks, build process or auxiliary tool changes"
+  - name: "refactor"
+    color: "e99695"
+    description: "Code restructuring without changing functionality"
+  - name: "fix"
+    color: "d73a4a"
+    description: "Something isn't working"
+  - name: "docs"
+    color: "0075ca"
+    description: "Improvements or additions to documentation"
+  - name: "feat"
+    color: "0F7C57"
+    description: "New feature or request"
+
+repositories:
+  - name: "fabricaIA/Template"
+  - name: "fabricaIA/SIMO-Desafio"
+  - name: "fabricaIA/sesapi-dnv"
+  - name: "fabricaIA/simo-fs"
