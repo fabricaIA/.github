@@ -1,0 +1,14 @@
+name: Manage Labels
+on:
+  push:
+    branches: [main]
+    paths: ['manage-your-labels.yml'] # Roda apenas quando mudar as labels
+
+jobs:
+  labeler:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: jmccann/manage-your-labels@v1
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
