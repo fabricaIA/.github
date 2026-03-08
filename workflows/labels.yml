@@ -2,7 +2,9 @@ name: Manage Labels
 on:
   push:
     branches: [main]
-    paths: ['manage-your-labels.yml'] # Roda apenas quando mudar as labels
+    paths:
+      - 'manage-your-labels.yml'
+  workflow_dispatch:
 
 jobs:
   labeler:
