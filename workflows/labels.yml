@@ -4,7 +4,7 @@ on:
     branches: [main]
     paths:
       - '.github/manage-your-labels.yml'
-  workflow_dispatch:
+  workflow_dispatch: # Libera o botão manual na aba Actions
 
 jobs:
   labeler:
