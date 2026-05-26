@@ -1,3 +1,11 @@
+---
+name: Ganho de Conhecimento
+about: Template para issues de estudo e ganho de conhecimento
+title: '[KNOWLEDGE] '
+labels: ''
+assignees: ''
+---
+
 **DESCRIÇÃO**
 
 Descrever o estudo que será desenvolvido e as contribuições esperadas para o projeto.
